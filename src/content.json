@@ -212,10 +212,10 @@
    "sound": "جرس الباب الطبيعي + استمرار الخطوات",
    "function": "تقديم مكان حقيقي ومتوازن، لا مدخل مسرحي.",
    "image": "assets/shots/shot-02.jpg",
-   "w": 534,
-   "h": 290,
+   "w": 506,
+   "h": 336,
    "alt": "رسم مرجعي توضيحي للقطة 02: ماركو يدخل الكادر",
-   "imageSource": "T02",
+   "imageSource": "G1",
    "pdfImage": "T02",
    "needs": []
   },
@@ -231,10 +231,10 @@
    "sound": "همهمة قاعة خفيفة، أصوات أوراق وأقلام وأكواب ماء",
    "function": "تأسيس الكوميديا البصرية قبل بداية الحوار.",
    "image": "assets/shots/shot-03.jpg",
-   "w": 506,
-   "h": 336,
+   "w": 534,
+   "h": 290,
    "alt": "رسم مرجعي توضيحي للقطة 03: كل واحدة بعالمها",
-   "imageSource": "G2",
+   "imageSource": "T02",
    "pdfImage": "T03",
    "needs": []
   },
@@ -269,8 +269,8 @@
    "sound": "رنة خفيفة للمفتاح",
    "function": "إثبات منتج السيارة وتهيئة بداية الطلب.",
    "image": "assets/shots/shot-05.jpg",
-   "w": 503,
-   "h": 335,
+   "w": 420,
+   "h": 337,
    "alt": "رسم مرجعي توضيحي للقطة 05: شانجان",
    "imageSource": "G3",
    "pdfImage": "T05",
@@ -913,11 +913,11 @@
   ]
  },
  "_sources": {
-  "front": "draft",
-  "back": "draft",
+  "front": "verified",
+  "back": "verified",
   "shots-a": "verified",
   "shots-b": "verified",
   "shots-c": "verified",
-  "shots-d": "draft"
+  "shots-d": "verified"
  }
 }

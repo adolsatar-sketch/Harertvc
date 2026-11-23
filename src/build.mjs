@@ -99,7 +99,7 @@ const navItems = [
 
 const hero = () => {
   const [pre, main] = (() => { const t = C.meta.title; const i = t.indexOf('إعلان'); return i > 0 ? [t.slice(0, i).trim(), t.slice(i).trim()] : ['', t]; })();
-  const pick = [2, 8, 27].map(n => SHOTS[n - 1]);
+  const pick = [3, 8, 27].map(n => SHOTS[n - 1]);
   return `
 <section class="hero on-dark" id="top" aria-labelledby="t-hero">
   <div class="wrap hero__grid">
@@ -124,7 +124,7 @@ const hero = () => {
     </div>
     <div class="mosaic">
       ${pick.map(s => `<figure>
-        <button class="zoom" type="button" data-gallery="shots" data-alias="${s.n - 1}" data-full="${esc(s.image)}" aria-label="تكبير صورة اللقطة ${pad2(s.n)}: ${esc(s.title)}"><img src="${esc(s.image)}" alt="${esc(s.alt)}" width="${s.w}" height="${s.h}" ${s.n === 2 ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"></button>
+        <button class="zoom" type="button" data-gallery="shots" data-alias="${s.n - 1}" data-full="${esc(s.image)}" aria-label="تكبير صورة اللقطة ${pad2(s.n)}: ${esc(s.title)}"><img src="${esc(s.image)}" alt="${esc(s.alt)}" width="${s.w}" height="${s.h}" ${s.n === 3 ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"></button>
         <a class="tag" href="#shot-${pad2(s.n)}" aria-label="انتقل إلى اللقطة ${pad2(s.n)}">${pad2(s.n)}</a>
         <figcaption>${esc(s.title)}</figcaption>
       </figure>`).join('')}
